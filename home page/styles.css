@@ -8,7 +8,7 @@
 body{
     color: rgb(245, 213, 177);
    font-family: Roboto Condensed;
-    background-image:url(Imagenes-archivos/4P1B9288-min-fotor-20231219225848.jpg);
+   background-image: url(../resources/4P1B9288-min-fotor-20231219225848.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -84,13 +84,13 @@ footer{
 }
 
 .imagen1{
- margin-left: 730px;  
+ margin-left: 900px;  
  border-radius: 15px;
 }
 
 .imagen2{
     border-radius: 15px;
-    margin-left: 50px;
+    margin-left: 160px;
 }
 
 
