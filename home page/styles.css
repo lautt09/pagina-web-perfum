@@ -16,28 +16,14 @@ body{
 
 }
 
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(0, 0, 0);
-}
-
-li{
-    padding: 20px;
-    padding-left: 40px;
-}
-
-a{
-    text-decoration: none;
-    color: #f5c5c5;
-    font-size: 20px;
+.navnavbar navbar-expand-lg navbar-light bg-light {
+    background-color: black;
 }
 
 h1{
     text-align: center;
-    color: rgb(112, 86, 51);
-    font-size: 80px;
+    color: rgb(153, 90, 8);
+    font-size: 800px;
 }
 
 h2{
@@ -81,6 +67,7 @@ footer{
     
     
 }
+
 
 .imagen1{
  

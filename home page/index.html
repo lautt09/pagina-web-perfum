@@ -7,26 +7,39 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <nav>
-        <ul>
-            <li>
-                <a href="/index.html">Home</a> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Diseñador</a>
             </li>
-            <li>
-                <a href="/diseñador.html">Diseñador</a> 
+            <li class="nav-item">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nacionales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">¿Quienes somos?</a>
+              </li>
+              </div>
             </li>
-            <li>
-                <a href="/nacionales.html">Nacionales</a> 
-            </li>
-            <li>
-                <a href="/quienes-somos.html">Quienes somos</a> 
-            </li> 
-        </ul>
-    </nav>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
 
     <h1>PISSINGH</h1>
     <h2>PERFUMES</h2>
